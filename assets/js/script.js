@@ -7,12 +7,12 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             question: "Which type of Beholder has suppressed its xenophobia and paranoia, and lives as a leader of a community?",
             answers: ["Death Tyrants", "Eye Tyrants", "Death Kiss", "Beholder Hives"],
-            correct: 1
+            correct: "Eye Tyrants"
         },
         {
             question: "Which type of Hag will MOST COMMONLY be found in wintery lands, favoring snow covered mountain peaks?",
             answers: ["Annis Hags", "Green Hags", "Bheur Hags", "Night Hags"],
-            correct: 2
+            correct: "Bheur Hags"
         },
         {
             question: "Fill in the blank. A Kobold Dragonshield is '..' by a Dragon to protect it's eggs.",
@@ -55,6 +55,19 @@ document.addEventListener("DOMContentLoaded", () => {
             correct: 3
         }
     ]
+
+    let questionElement = document.getElementById('question');
+    let answerOne = document.getElementById('answer-one');
+    let answerTwo = document.getElementById('answer-two');
+    let answerThree = document.getElementById('answer-three');
+    let answerFour = document.getElementById('answer-four');
+    let currentQuestion = 0
+    let tally = 0
+
+    // load a question into the quiz
+    function loadQuestion() {
+        
+    }
 
 
 })
