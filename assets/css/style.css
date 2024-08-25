@@ -17,15 +17,31 @@ body {
     font-family: Quicksand;
 }
 
-h2, h3, h4 {
-    color: #780606;    
+h2,
+h3,
+h4 {
+    color: #780606;
     text-align: center;
+    font-size: 90%;
+}
+
+button {
+    display: inline-block;
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+    color: #011f20;
+    font-size: 90%;
+    text-align: center;
+    min-width: 150px;
+    height: 35px;
+    margin: 10px 10px 10px 10px;
 }
 
 .heading {
     color: #011f20;
     text-align: center;
-    font-size: 110%;
+    font-size: 125%;
 }
 
 .words {
@@ -38,8 +54,12 @@ h2, h3, h4 {
     /* creating a box to contain the quizes, the signup form and feedback form
     this will sit on top of the background image above */
     background-color: rgba(151, 162, 255, 0.9);
-    margin: 10em 10px 10em 10px;
-    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+    width: 90vw;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
 }
 
 /* Main Page / Home Page */
@@ -67,15 +87,23 @@ nav ul {
     align-items: center;
 }
 
+/* Monster Facts Page */
+
+#questions-answers-section {
+    text-align: center;
+}
+
 /* Media Query: Tablets and larger (768px and up) */
 @media screen and (min-width:768px) {
     #quiz-box {
-        width: 800px;
-        position: absolute;
-        left: 5vw
+        width: 70vw;
+        position: fixed;
+        top: 30%;
+        left: 30%;
+        transform: translate(-30%, -30%);
     }
 
     .heading {
-        font-size: 175%;
+        font-size: 200%;
     }
 }
