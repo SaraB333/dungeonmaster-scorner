@@ -23,6 +23,12 @@ body {
     font-size: 110%;
 }
 
+.words {
+    color: #780606;
+    text-align: center;
+    font-weight: bold;
+}
+
 #quiz-box {
     /* creating a box to contain the quizes, the signup form and feedback form
     this will sit on top of the background image above */
@@ -61,6 +67,10 @@ nav ul {
     #quiz-box {
         width: 800px;
         position: absolute;
-        left: 25vw
+        left: 5vw
+    }
+
+    .heading {
+        font-size: 175%;
     }
 }
