@@ -1,0 +1,56 @@
+/* Asterisk wildcard selector to override default styles added by the browser */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+
+body {
+    /* added background image and colour for screens too big for the image size, with no repeats */
+    background: #473f46 url(../images/background.webp);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center top;
+    font-family: Quicksand;
+}
+
+/* Main */
+
+.heading {
+    color: #011f20;
+    text-align: center;
+    font-size: 110%;
+}
+
+#quiz-box {
+    /* creating a box to contain the quizes, the signup form and feedback form
+    this will sit on top of the background image above */
+    background-color: rgba(151, 162, 255, 0.9);
+    margin: 10em 10px 10em 10px;
+    padding: 20px 20px 20px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.nav-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #ffe6fc;
+    background-color: #12514f;
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

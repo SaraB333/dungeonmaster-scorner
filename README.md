@@ -46,6 +46,8 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Testing 
 
+
+
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
@@ -93,6 +95,10 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Content 
 
+- Asterisk wildcard selector in css copied from love running project
+- Monster Facts taken from Volo's Guide to Monsters (a book I own)
+
+
 - The text for the Home page was taken from Wikipedia Article A
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
@@ -100,6 +106,9 @@ You can break the credits section up into Content and Media, depending on what y
 ### Media
 
 - favicon taken from [icons8](https://icons8.com/icon/104704/dungeons-and-dragons)
+- background image taken from [Forgotten Realms](https://forgottenrealms.fandom.com/wiki/Volo%27s_Guide_to_Monsters_(in-universe))
+
+
 - The photos used on the home and sign up page are from This Open Source site
 - The images used for the gallery page were taken from this other open source site
 
