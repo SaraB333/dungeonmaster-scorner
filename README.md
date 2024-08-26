@@ -31,26 +31,15 @@ DungeonMaster Scorner is a quiz website that will test the knowledge of dungeonm
 
 ![Game (Match)](assets/images/monster-match-page.png)
 
-- __The Question section__
+- __The Tally Area__
 
-  - The question section is where the user will be able to see the question to answer as part of the quiz. The user will be able to select one of four answers.
-  - The user will be able to submit their answer and a pop-up will make it known to the user if they answered correctly. 
+  - This section will allow the user to see exactly how many correct answers they have provided. 
 
-![Question](media/love_maths_question.png)
-
-- __The Score Area__
-
-  - This section will allow the user to see exactly how many correct and incorrect answers they have provided. 
-
-![score](media/love_maths_answer.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![Tally](assets/images/tally-section.png)
 
 ### Features Left to Implement
 
-- Another feature idea
+- I would have liked to have alerts for when the game is over, but time restrictions means that for now, the user will have a slightly less interactive experience
 
 ## Testing 
 

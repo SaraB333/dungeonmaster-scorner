@@ -28,4 +28,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // brings the function into the global window for the onclick features
     window.goHome = goHome;
-})
+});
