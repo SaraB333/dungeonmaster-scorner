@@ -99,6 +99,7 @@ You can break the credits section up into Content and Media, depending on what y
 
 - Asterisk wildcard selector in css copied from love running project
 - Monster Facts taken from Volo's Guide to Monsters (a book I own)
+- sign up form copied from [code institute lesson](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LMR101+1/courseware/0a4bf408d10c4149bb686457ac11edf6/16d62f1111064f5cb6a64582da96a41b/)
 
 
 - The text for the Home page was taken from Wikipedia Article A

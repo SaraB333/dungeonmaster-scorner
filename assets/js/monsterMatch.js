@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // load a question into the quiz
     function loadQuestion() {
         let quizData = monsterImages[currentImage];
-        elements.quizImage.src = quizData.image;
+        elements.quizImage.src = quizData.question;
         elements.quizImage.alt = `Image for ${quizData.question}`;
         elements.answerButtons.forEach((button, index) => {
             button.innerText = quizData.answers[index];

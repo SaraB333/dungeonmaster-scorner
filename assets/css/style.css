@@ -4,6 +4,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    min-height: fit-content;
+    overflow: scroll;
 }
 
 /* General Styles */
@@ -11,10 +13,16 @@
 body {
     /* added background image and colour for screens too big for the image size, with no repeats */
     background: #473f46 url(../images/background.webp);
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
     font-family: Quicksand;
+    min-height: 100vh;
+    overflow: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
 h2,
@@ -55,12 +63,9 @@ button {
     this will sit on top of the background image above */
     background-color: rgba(151, 162, 255, 0.9);
     border-radius: 20px;
-    width: 90vw;
-    position: fixed;
     padding: 10px 10px 10px 10px;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -30%);
+    width: 70vw;
+    
 }
 
 /* Main Page / Home Page */
@@ -101,19 +106,12 @@ nav ul {
 /* Monster Match Page */
 #quiz-img {
     max-width: 60vw;
-    max-height: 40vh;
-    display: flex;
-    justify-content: center;
 }
 
 /* Media Query: Tablets and larger (768px and up) */
 @media screen and (min-width:768px) {
     #quiz-box {
         width: 70vw;
-        position: fixed;
-        top: 30%;
-        left: 30%;
-        transform: translate(-30%, -30%);
     }
 
     .heading {
