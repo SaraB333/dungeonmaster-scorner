@@ -39,7 +39,8 @@ DungeonMaster Scorner is a quiz website that will test the knowledge of dungeonm
 
 ### Features Left to Implement
 
-- I would have liked to have alerts for when the game is over, but time restrictions means that for now, the user will have a slightly less interactive experience
+- I would have liked to have alerts for when the game is over, but time restrictions means that for now, the user will have a slightly less interactive experience.
+- I would like to have displayed wrong questions as well as correct ones.
 
 ## Testing 
 
