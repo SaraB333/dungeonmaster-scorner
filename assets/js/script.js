@@ -107,7 +107,6 @@ document.addEventListener("DOMContentLoaded", () => {
         } else {
             if (answerNumber === monsterQuestions[questionNumber].correct) {
                 tallyAmount++;
-                alert("Thou hast ventured to the final question, brave soul.")
             }
         }
     }
