@@ -1,29 +1,35 @@
-python3 -m http.server
-
 # DungeonMaster Scorner
 
-DungeonMaster Scorner is a quiz website that will test the knowledge of dungeonmasters using Volo's Guide to Monsters. This will be for DnD 5th edition. There will be a Monster Facts page to test the users general knowledge on Monsters, a Monster Match page for matching monsters images to their names, a Signup page so users can login, and a Feedback page for users to leave their thoughts.
+DungeonMaster Scorner is a quiz website that will test the knowledge of dungeonmasters using Volo's Guide to Monsters. This will be for DnD 5th edition. There will be a Monster Facts page to test the users general knowledge on Monsters, a Monster Match page for matching monsters images to their names and a Signup page so users can create a login, and a Feedback page that will show after users fill in the sign up form.
 
-![Responsice Mockup](media/love_maths_mockup.png)
+![Responsice Mockup](assets/images/responsive-design-check.png)
 
 ## Features 
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 ### Existing Features
 
-- __The DungeonMaster Scorner Logo and Heading__
+- __The DungeonMaster Scorner Logo__
 
-  - Featured at the top of the page, the DungeonMaster Scorner logo and heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
+  - Featured at the top of the games and sign up page, the DungeonMaster Scorner logo and heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the website.
 
-![Logo](media/love_maths_logo.png)
+![Logo](assets/images/logo.png)
 
-- __The Game Area__
+- __Home Page__
 
-  - This section will allow the user to choose to play the quiz or signup. The user will be able to easily see buttons for general knowledge, monster match, signup and feedback.
-  - The user will be able to select the type of quiz they will be playing by clicking on the different buttons. 
+  - This is a page with links to both games, and the sign up page. This is a safe place for users to relax and choose what they would like to do.
 
-![Game](media/love_maths_icons.png)
+![Home](assets/images/home-page.png)
+
+- __The Game Area (Monster Facts)__
+
+  - This Page hosts the first game, where users can test their general knowledge from Volo's Guide to Monsters. It has a home button to go back to the home page, and a restart quiz button to take the user back to the beginning of the quiz.  
+
+![Game (Facts)](assets/images/monster-facts-page.png)
+
+- __The Game Area (Monster Match)__
+
+  - This Page hosts the second game, where users can test their monster visuals knowledge from Volo's Guide to Monsters. It has a home button to go back to the home page, and a restart quiz button to take the user back to the beginning of the quiz. 
+
+![Game (Match)](assets/images/monster-match-page.png)
 
 - __The Question section__
 
