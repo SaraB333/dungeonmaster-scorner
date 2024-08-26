@@ -56,17 +56,28 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     ]
 
-    let questionElement = document.getElementById('question');
-    let answerOne = document.getElementById('answer-one');
-    let answerTwo = document.getElementById('answer-two');
-    let answerThree = document.getElementById('answer-three');
-    let answerFour = document.getElementById('answer-four');
     let currentQuestion = 0
-    let tally = 0
+    let tallyAmount = 0
+
+    let elements = {
+        question: document.getElementById('question'),
+        answerButtons: [
+          document.getElementById('answer-one'),
+          document.getElementById('answer-two'),
+          document.getElementById('answer-three'),
+          document.getElementById('answer-four')
+        ],
+        tally: document.getElementById('tally')
+      };
 
     // load a question into the quiz
     function loadQuestion() {
-        
+        let questionData = questions[currentQuestion];
+        elements.question.innerText = questionData.question;
+        elements.answerButtons.forEach((button, index) => {
+          button.innerText = questionData.answers[index];
+          button.disabled = false;
+        });
     }
 
 

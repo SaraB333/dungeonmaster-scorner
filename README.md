@@ -1,3 +1,5 @@
+python3 -m http.server
+
 # DungeonMaster Scorner
 
 DungeonMaster Scorner is a quiz website that will test the knowledge of dungeonmasters using Volo's Guide to Monsters. This will be for DnD 5th edition. There will be a Monster Facts page to test the users general knowledge on Monsters, a Monster Match page for matching monsters images to their names, a Signup page so users can login, and a Feedback page for users to leave their thoughts.
