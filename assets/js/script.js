@@ -7,12 +7,12 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             question: "Which type of Beholder has suppressed its xenophobia and paranoia, and lives as a leader of a community?",
             answers: ["Death Tyrants", "Eye Tyrants", "Death Kiss", "Beholder Hives"],
-            correct: "Eye Tyrants"
+            correct: 1
         },
         {
             question: "Which type of Hag will MOST COMMONLY be found in wintery lands, favoring snow covered mountain peaks?",
             answers: ["Annis Hags", "Green Hags", "Bheur Hags", "Night Hags"],
-            correct: "Bheur Hags"
+            correct: 2
         },
         {
             question: "Fill in the blank. A Kobold Dragonshield is '..' by a Dragon to protect it's eggs.",
@@ -69,7 +69,8 @@ document.addEventListener("DOMContentLoaded", () => {
             document.getElementById('answer-three'),
             document.getElementById('answer-four')
         ],
-        tally: document.getElementById('tally')
+        tally: document.getElementById('tally'),
+        onceMore: document.getElementById('once-more')
     };
 
     // load a question into the quiz
@@ -81,9 +82,46 @@ document.addEventListener("DOMContentLoaded", () => {
             button.disabled = false;
         });
     }
-    // run the function to load the questions into the quiz
+
+    //load the first question into the quiz
     loadQuestion();
 
-    
+    //add event listeners for the answer buttons
+    elements.answerButtons.forEach((button, index) => {
+        button.addEventListener('click', () => {
+            checkAnswer(index);
+        });
+    });
 
-})
+    // check the answer given and load a new question
+    function checkAnswer(answerNumber) {
+        if (answerNumber === monsterQuestions[questionNumber].correct) {
+            tallyAmount++;
+        }
+        elements.tally.innerText = `${tallyAmount} of ${quizLength} ... will you make Volo proud??`;
+        questionNumber++;
+        if (questionNumber < quizLength) {
+            loadQuestion(currentQuestion++);
+        } else {
+            if (answerNumber === monsterQuestions[questionNumber].correct) {
+                tallyAmount++;
+            }
+        }
+    }
+
+    //function to end the quiz with the 'take me back to my place of origin' button
+    function goHome() {
+        window.location.href = 'index.html';
+    }
+
+    //function to restart the quiz with the 'Absolutely! button
+    function restartGame() {
+        window.location.reload();
+    }
+
+    // Expose functions to the global scope for HTML event handlers  
+
+    window.goHome = goHome;
+    window.restartGame = restartGame;
+
+});
