@@ -1,6 +1,8 @@
 // Wait for the DOM to load fully before running any Javascript
 document.addEventListener("DOMContentLoaded", () => {
 
+    //Monster Facts Page
+
     // An array of questions and answers that will populate the monster facts game
     let monsterQuestions = [
 

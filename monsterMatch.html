@@ -30,13 +30,36 @@
             <h1 class="heading"><i class="fa-solid fa-dragon"></i> DungeonMaster Scorner</h1>
         </header>
         <main>
-
+            <h2>Unveil the extent of your intellect</h2>
+            <h3>UGH!! WHAT IS THAT?!</h3>
+            <!-- empty fields where js will populate -->
+            <!-- question (the image is the question) and answers section -->
+            <section id="questions-answers-section">
+                <img id="quiz-img" class="monster-img" src="assets/images/tanarukk.webp"
+                    alt="Image for Monster Match Game">
+                <button id="answer-one"></button>
+                <button id="answer-two"></button>
+                <button id="answer-three"></button>
+                <button id="answer-four"></button>
+            </section>
+            <section>
+                <!-- score display -->
+                <h3>The sum of your might</h3>
+                <div>
+                    <h4>Tally: <span id="tally">0</span></h4>
+                </div>
+            </section>
+            <section id="once-more">
+                <h3>Do you dare try again?</h3>
+                <button onclick="restartGame()">Once more, with vigor</button>
+                <button id="home-btn" onclick="goHome()">Escort me back to my place of origin</button>
+            </section>
         </main>
-        
+
     </div>
 
     <!-- link javascript sheet -->
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/monsterMatch.js"></script>
 </body>
 
 </html>

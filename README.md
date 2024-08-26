@@ -109,6 +109,7 @@ You can break the credits section up into Content and Media, depending on what y
 
 - favicon taken from [icons8](https://icons8.com/icon/104704/dungeons-and-dragons)
 - background image taken from [Forgotten Realms](https://forgottenrealms.fandom.com/wiki/Volo%27s_Guide_to_Monsters_(in-universe))
+- all images for Monster match game taken from [Forgotten Realms](https://forgottenrealms.fandom.com/wiki/Main_Page)
 
 
 - The photos used on the home and sign up page are from This Open Source site

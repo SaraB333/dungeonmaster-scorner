@@ -98,6 +98,12 @@ nav ul {
     text-align: center;
 }
 
+/* Monster Match Page */
+#quiz-img {
+    max-width: 60vw;
+    max-height: 40vh;
+}
+
 /* Media Query: Tablets and larger (768px and up) */
 @media screen and (min-width:768px) {
     #quiz-box {
