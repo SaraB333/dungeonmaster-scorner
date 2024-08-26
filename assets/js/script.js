@@ -109,12 +109,12 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-    //function to end the quiz with the 'take me back to my place of origin' button
+    //function to end the quiz with the 'Escort me back to my place of origin' button
     function goHome() {
         window.location.href = 'index.html';
     }
 
-    //function to restart the quiz with the 'Absolutely! button
+    //function to restart the quiz with the 'Once more, with vigor' button
     function restartGame() {
         window.location.reload();
     }

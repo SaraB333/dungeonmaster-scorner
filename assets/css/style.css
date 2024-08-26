@@ -57,6 +57,7 @@ button {
     border-radius: 20px;
     width: 90vw;
     position: fixed;
+    padding: 10px 10px 10px 10px;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -30%);
@@ -90,6 +91,10 @@ nav ul {
 /* Monster Facts Page */
 
 #questions-answers-section {
+    text-align: center;
+}
+
+#once-more {
     text-align: center;
 }
 
