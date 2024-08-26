@@ -47,7 +47,7 @@ button {
 .heading {
     color: #011f20;
     text-align: center;
-    font-size: 125%;
+    font-size: 90%;
 }
 
 .words {
@@ -133,7 +133,6 @@ label {
     border-radius: 5px;
     border: none;
 }
-
 
 /* Media Query: Tablets and larger (768px and up) */
 @media screen and (min-width:768px) {
