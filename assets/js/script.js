@@ -54,31 +54,36 @@ document.addEventListener("DOMContentLoaded", () => {
             answers: ["Air", "Sleep", "Blood", "Souls"],
             correct: 3
         }
-    ]
+    ];
 
-    let currentQuestion = 0
-    let tallyAmount = 0
+    let currentQuestion = 0;
+    let quizLength = monsterQuestions.length;
+    let questionNumber = 0;
+    let tallyAmount = 0;
 
     let elements = {
         question: document.getElementById('question'),
         answerButtons: [
-          document.getElementById('answer-one'),
-          document.getElementById('answer-two'),
-          document.getElementById('answer-three'),
-          document.getElementById('answer-four')
+            document.getElementById('answer-one'),
+            document.getElementById('answer-two'),
+            document.getElementById('answer-three'),
+            document.getElementById('answer-four')
         ],
         tally: document.getElementById('tally')
-      };
+    };
 
     // load a question into the quiz
     function loadQuestion() {
-        let questionData = questions[currentQuestion];
+        let questionData = monsterQuestions[currentQuestion];
         elements.question.innerText = questionData.question;
         elements.answerButtons.forEach((button, index) => {
-          button.innerText = questionData.answers[index];
-          button.disabled = false;
+            button.innerText = questionData.answers[index];
+            button.disabled = false;
         });
     }
+    // run the function to load the questions into the quiz
+    loadQuestion();
 
+    
 
 })
