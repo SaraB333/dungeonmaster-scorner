@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", () => {
 
     //Monster Match Page
-    
+
     // An array of questions and answers that will populate the monster match game
     let monsterImages = [
 
