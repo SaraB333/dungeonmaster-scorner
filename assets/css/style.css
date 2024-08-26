@@ -63,6 +63,7 @@ button {
     border-radius: 20px;
     padding: 10px 10px 10px 10px;
     width: 70vw;
+    max-width: 1120px;
     
 }
 
@@ -106,6 +107,33 @@ nav ul {
     max-width: 60vw;
 }
 
+/* Sign Up Page */
+label {
+    color: #780606;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text-box {
+    background-color: rgba(176, 246, 255, 0.2);
+    color: #FFE4E4;
+    font-size: 120%;
+    letter-spacing: 1px;
+    border: 1px solid #FFE4E4;
+    border-radius: 2px;
+    width: 100%;
+    max-width: 300px;
+    min-height: 30px;
+}
+
+.submit-button {
+    background-color: #12514f;
+    color: #FFE4E4;
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: none;
+}
+
 /* Media Query: Tablets and larger (768px and up) */
 @media screen and (min-width:768px) {
     #quiz-box {
@@ -115,4 +143,5 @@ nav ul {
     .heading {
         font-size: 200%;
     }
+
 }

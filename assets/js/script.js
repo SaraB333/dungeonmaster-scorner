@@ -121,7 +121,7 @@ document.addEventListener("DOMContentLoaded", () => {
         window.location.reload();
     }
 
-    // Expose functions to the global scope for HTML event handlers  
+    // get functions to the global scope for HTML event handlers 
 
     window.goHome = goHome;
     window.restartGame = restartGame;

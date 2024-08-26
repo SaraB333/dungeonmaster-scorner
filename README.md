@@ -99,7 +99,42 @@ You can break the credits section up into Content and Media, depending on what y
 
 - Asterisk wildcard selector in css copied from love running project
 - Monster Facts taken from Volo's Guide to Monsters (a book I own)
-- sign up form copied from [code institute lesson](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LMR101+1/courseware/0a4bf408d10c4149bb686457ac11edf6/16d62f1111064f5cb6a64582da96a41b/)
+- sign up form copied from [code institute lesson](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LMR101+1/courseware/0a4bf408d10c4149bb686457ac11edf6/16d62f1111064f5cb6a64582da96a41b/) (please see below code that was copied and altered for this project)
+- ><body>
+  >    <h3>Register your account:</h3>
+  >  <p id="errors"></p>
+  >  <form id="registration-form" method="POST" action="https://formdump.codeinstitute.net/">
+  >      <div class="username">
+  >          <label for="username">Username:</label>
+  >          <input id="username" name="username" type="text" required>
+  >      </div>
+  >      <div class="password">
+  >          <label for="password">Password:</label>
+  >          <input id="password" name="password" type="password" required>
+  >      </div>
+  >      <input type="submit">
+  >      
+  >  </form>
+  >  <script src="https://code.jquery.com/jquery-3.5.1.slim.js" integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
+  >  <script src="index.js"></script>
+  ></body>
+  >let usernames = ["Harry", "Daisy", "Michael", "Sarah", "Sally"];
+
+  >// Write your code here
+  >let form = document.getElementById('registration-form');
+  >form.addEventListener('submit', handleSubmit);
+  >let errorMsg = document.getElementById('errors');
+  >function handleSubmit(event) {
+  >  event.preventDefault;
+  >  let usernameInput = document.getElementById('username').value;
+  >  if (usernames.includes(usernameInput)) {
+  >      errorMsg.innerHTML = `Sorry, the username ${usernameInput} is already in use. Please choose another username.`;
+  >  } else {
+  >      usernames.push(usernameInput);
+  >      form.submit();
+  >      console.log(usernames);
+  >  }
+  >}
 
 
 - The text for the Home page was taken from Wikipedia Article A

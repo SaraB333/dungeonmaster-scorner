@@ -1,9 +1,9 @@
 // Wait for the DOM to load fully before running any Javascript
 document.addEventListener("DOMContentLoaded", () => {
 
-    //Monster Facts Page
+    //Monster Match Page
     
-    // An array of questions and answers that will populate the monster facts game
+    // An array of questions and answers that will populate the monster match game
     let monsterImages = [
 
         {
@@ -147,12 +147,9 @@ document.addEventListener("DOMContentLoaded", () => {
         window.location.reload();
     }
 
-    // Expose functions to the global scope for HTML event handlers  
+    // get functions to the global scope for HTML event handlers  
 
     window.goHome = goHome;
     window.restartGame = restartGame;
-
-
-    //Monster Match Code
 
 });
