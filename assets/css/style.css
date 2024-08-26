@@ -134,6 +134,7 @@ label {
     border: none;
 }
 
+
 /* Media Query: Tablets and larger (768px and up) */
 @media screen and (min-width:768px) {
     #quiz-box {
