@@ -73,12 +73,12 @@ DungeonMaster Scorner is a quiz website that will test the knowledge of dungeonm
 - HTML
     - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsarab333.github.io%2Fdungeonmaster-scorner%2F)
   
-  ![HTML Validation](assets/images/HTML-check.png)
+  ![HTML Validation](assets/images/html-check.png)
 
 - CSS
     - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsarab333.github.io%2Fdungeonmaster-scorner%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-![CSS Validation](assets/images/CSS-check.png)
+![CSS Validation](assets/images/css-check.png)
 
 - JavaScript
     - No errors were found when passing through the official [Jshint validator](https://jshint.com/)
