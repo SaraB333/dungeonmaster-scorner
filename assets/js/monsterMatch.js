@@ -111,6 +111,11 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
+    //function to send an alert to the user for the end of the quiz
+    function alertEnd() {
+        window.alert("The quiz is complete. Well done, brave souls.")
+    }
+
     //load the first question into the quiz
     loadQuestion();
 
@@ -126,13 +131,14 @@ document.addEventListener("DOMContentLoaded", () => {
         if (answerNumber === monsterImages[imgNumber].correct) {
             tallyAmount++;
         }
-        elements.tally.innerText = `${tallyAmount} of ${imgLength} ... will you make Volo proud??`;
+        elements.tally.innerText = `${tallyAmount} of ${imgNumber+1} ... will you make Volo proud??`;
         imgNumber++;
         if (imgNumber < imgLength) {
             loadQuestion(currentImage++);
         } else {
             if (answerNumber === monsterImages[imgNumber].correct) {
                 tallyAmount++;
+                alertEnd();
             }
         }
     }

@@ -33,14 +33,15 @@ DungeonMaster Scorner is a quiz website that will test the knowledge of dungeonm
 
 - __The Tally Area__
 
-  - This section will allow the user to see exactly how many correct answers they have provided. 
+  - This section will allow the user to see exactly how many correct answers they have provided, and how many questions have been asked.
 
 ![Tally](assets/images/tally-section.png)
 
-### Features Left to Implement
+- __The Alert For End Of Quiz__
 
-- I would have liked to have alerts for when the game is over, but time restrictions means that for now, the user will have a slightly less interactive experience.
-- I would like to have displayed wrong questions as well as correct ones.
+  - This alert aloows users to easily see that they have ended the quiz
+
+![Alert]()
 
 ## Testing 
 
@@ -60,6 +61,8 @@ DungeonMaster Scorner is a quiz website that will test the knowledge of dungeonm
 - The Game Area (Monster Match): This was a copy and paste from the last game, with a few tweaks. The images at first were not loading properyly, an donce I had solved that problem they were not centered. Once all of this was fixed, I tested them on all the available screen sizes, which all looked great until i exited dev tools for the full screen view when a the buttons started appearing beside the image, instead of below. I fixed that and it then looked great on all screen sizes. 
 
 - The Tally Area: Once I had all the code running nicely and it was displaying what I needed it to, all that was left was the styling, which didn't take long due to having styling in place for other bits already. Again, as with all features I used Dev tools to compare the views on all screen sizes and orientations to ensure it was counting for all of them. 
+
+- The alert window: I was having troubles with this not firing at the end of the quiz, 
 
 ### Validator Testing 
 
