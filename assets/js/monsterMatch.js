@@ -139,6 +139,8 @@ document.addEventListener("DOMContentLoaded", () => {
             if (answerNumber === monsterImages[imgNumber].correct) {
                 tallyAmount++;
                 alertEnd();
+            } else {
+                alertEnd();
             }
         }
     }
