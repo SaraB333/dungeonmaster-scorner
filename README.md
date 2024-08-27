@@ -41,7 +41,7 @@ DungeonMaster Scorner is a quiz website that will test the knowledge of dungeonm
 
   - This alert aloows users to easily see that they have ended the quiz
 
-![Alert]()
+![Alert](assets/images/alert.png)
 
 ## Testing 
 
