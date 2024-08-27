@@ -105,6 +105,7 @@ The live link can be found here - https://sarab333.github.io/dungeonmaster-scorn
 
 - Asterisk wildcard selector in css copied from love running project
 - Monster Facts taken from Volo's Guide to Monsters (a book I own)
+a lot of the code structure in the javascript elements taken from [Medium](https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2) and then adapted from there. code copied includes all code on this page apart from the css element.
 - sign up form copied from [code institute lesson](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LMR101+1/courseware/0a4bf408d10c4149bb686457ac11edf6/16d62f1111064f5cb6a64582da96a41b/) (please see below code that was copied and altered for this project)
 - ><body>
   >    <h3>Register your account:</h3>

@@ -75,6 +75,11 @@ document.addEventListener("DOMContentLoaded", () => {
         onceMore: document.getElementById('once-more')
     };
 
+    //function to send an alert to the user for the end of the quiz
+    function alertEnd() {
+        window.alert("The quiz is complete. Well done, brave souls.")
+    }
+
     // load a question into the quiz
     function loadQuestion() {
         let questionData = monsterQuestions[currentQuestion];
@@ -99,6 +104,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function checkAnswer(answerNumber) {
         if (answerNumber === monsterQuestions[questionNumber].correct) {
             tallyAmount++;
+            alertEnd();
         }
         elements.tally.innerText = `${tallyAmount} of ${quizLength} ... will you make Volo proud??`;
         questionNumber++;
