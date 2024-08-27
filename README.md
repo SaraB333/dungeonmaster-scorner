@@ -83,14 +83,13 @@ DungeonMaster Scorner is a quiz website that will test the knowledge of dungeonm
 - JavaScript
     - No errors were found when passing through the official [Jshint validator](https://jshint.com/)
       - The following metrics were returned: 
-      - There are 21 functions in this file.
+      - There are 23 functions in this file.
       - Function with the largest signature take 2 arguments, while the median is 0.
-      - Largest function has 14 statements in it, while the median is 2.
+      - Largest function has 15 statements in it, while the median is 1.
       - The most complex function has a cyclomatic complexity value of 4 while the median is 1.
-      - There were many warnings, as shown below:
+      - There was one warning, as shown below:
 
-![Warnings](assets/images/jshint-warning-one.png)
-![Warnings(Two)](assets/images/jshint-warning-two.png)
+![Warnings](assets/images/jshint.png)
 
 - Lighthouse 
   - Performance graded by lighthouse as below image
