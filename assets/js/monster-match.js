@@ -108,7 +108,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     //function to send an alert to the user for the end of the quiz
     function alertEnd() {
-        window.alert("The quiz is complete. Well done, brave souls.")
+        window.alert("The quiz is complete. Well done, brave souls.");
     }
 
     //load the first question into the quiz
@@ -133,7 +133,7 @@ document.addEventListener("DOMContentLoaded", () => {
         } else {
             if (imgNumber === imgLength) {
                 alertEnd();
-            };
+            }
         }
     }
 
