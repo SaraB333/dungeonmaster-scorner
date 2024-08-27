@@ -104,15 +104,15 @@ document.addEventListener("DOMContentLoaded", () => {
     function checkAnswer(answerNumber) {
         if (answerNumber === monsterQuestions[questionNumber].correct) {
             tallyAmount++;
-            alertEnd();
         }
-        elements.tally.innerText = `${tallyAmount} of ${quizLength} ... will you make Volo proud??`;
+        elements.tally.innerText = `${tallyAmount} of ${questionNumber+1} ... will you make Volo proud??`;
         questionNumber++;
         if (questionNumber < quizLength) {
             loadQuestion(currentQuestion++);
         } else {
             if (answerNumber === monsterQuestions[questionNumber].correct) {
                 tallyAmount++;
+                alertEnd();
             }
         }
     }
