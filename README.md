@@ -153,5 +153,6 @@ a lot of the code structure in the javascript elements taken from [Medium](https
 ### Media
 
 - favicon taken from [icons8](https://icons8.com/icon/104704/dungeons-and-dragons)
+- code for favicon copied from [Favicon Generator](https://favicon.io/favicon-converter/)
 - background image taken from [Forgotten Realms](https://forgottenrealms.fandom.com/wiki/Volo%27s_Guide_to_Monsters_(in-universe))
 - all images for Monster match game taken from [Forgotten Realms](https://forgottenrealms.fandom.com/wiki/Main_Page)
