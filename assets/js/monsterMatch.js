@@ -62,11 +62,6 @@ document.addEventListener("DOMContentLoaded", () => {
             correct: 0
         },
         {
-            question: "assets/images/wood-woad.webp",
-            answers: ["Aurochs", "Wood Woad", "Froghemoth", "Meenlock"],
-            correct: 1
-        },
-        {
             question: "assets/images/xvarts.webp",
             answers: ["Tanarukk", "Xvarts", "Tlincalli", "Vargouille"],
             correct: 1
@@ -136,12 +131,9 @@ document.addEventListener("DOMContentLoaded", () => {
         if (imgNumber < imgLength) {
             loadQuestion(currentImage++);
         } else {
-            if (answerNumber === monsterImages[imgNumber].correct) {
-                tallyAmount++;
+            if (questionNumber === quizLength) {
                 alertEnd();
-            } else {
-                alertEnd();
-            }
+            };
         }
     }
 

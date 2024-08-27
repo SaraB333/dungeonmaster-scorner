@@ -62,7 +62,9 @@ DungeonMaster Scorner is a quiz website that will test the knowledge of dungeonm
 
 - The Tally Area: Once I had all the code running nicely and it was displaying what I needed it to, all that was left was the styling, which didn't take long due to having styling in place for other bits already. Again, as with all features I used Dev tools to compare the views on all screen sizes and orientations to ensure it was counting for all of them. 
 
-- The alert window: I was having troubles with this not firing at the end of the quiz, 
+- The alert window: I was having troubles with this not firing at the end of the quiz, i needed to remove an if else statement.
+
+- Throughout this project I had available, and used quite a lof of tutor support, I cannot thank them enough.
 
 ### Validator Testing 
 

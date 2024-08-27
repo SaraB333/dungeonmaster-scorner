@@ -110,12 +110,9 @@ document.addEventListener("DOMContentLoaded", () => {
         if (questionNumber < quizLength) {
             loadQuestion(currentQuestion++);
         } else {
-            if (answerNumber === monsterQuestions[questionNumber].correct) {
-                tallyAmount++;
+            if (questionNumber === quizLength) {
                 alertEnd();
-            } else {
-                alertEnd();
-            }
+            };
         }
     }
 
@@ -134,4 +131,4 @@ document.addEventListener("DOMContentLoaded", () => {
     window.goHome = goHome;
     window.restartGame = restartGame;
 
-});
+})
