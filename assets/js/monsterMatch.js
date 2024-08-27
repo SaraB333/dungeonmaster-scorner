@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (imgNumber < imgLength) {
             loadQuestion(currentImage++);
         } else {
-            if (questionNumber === quizLength) {
+            if (imgNumber === imgLength) {
                 alertEnd();
             };
         }
