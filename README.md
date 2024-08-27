@@ -64,6 +64,8 @@ DungeonMaster Scorner is a quiz website that will test the knowledge of dungeonm
 
 - The alert window: I was having troubles with this not firing at the end of the quiz, i needed to remove an if else statement.
 
+- After I was happy with the quiz in the dev tools testing area, I then tested every feature on my phone, laptop screen and fullscreen on the live version, just for a change of test peice. On my large computer screen, laptop screen and phone screen, every feature worked as intended and looked as intended.
+
 - Throughout this project I had available, and used quite a lof of tutor support, I cannot thank them enough.
 
 ### Validator Testing 
